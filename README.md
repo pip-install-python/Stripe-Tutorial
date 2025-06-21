@@ -44,6 +44,10 @@ A Python web application built with Dash that integrates with Stripe to display 
    ```bash
    pip install dash plotly stripe python-dotenv pandas
    ```
+   or
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. **Set up environment variables**
    ```bash
