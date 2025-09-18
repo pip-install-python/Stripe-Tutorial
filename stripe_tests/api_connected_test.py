@@ -21,7 +21,7 @@ else:
     print("✅ Stripe API key found!")
     try:
         # Test the connection
-        products = stripe.Product.list(limit=1)
+        products = stripe.Product.list(limit=5)
         print(f"✅ Connection successful! Found {len(products.data)} product(s)")
     except Exception as e:
         print(f"❌ Connection failed: {e}")

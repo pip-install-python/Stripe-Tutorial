@@ -33,9 +33,9 @@ app.layout = html.Div([
                 dcc.Link('Products', href='/',
                          style={'marginRight': '20px', 'textDecoration': 'none',
                                 'color': '#1a73e8', 'fontSize': '18px'}),
-                dcc.Link('Analytics', href='/analytics',
+                dcc.Link('Create Products', href='/create-products',
                          style={'textDecoration': 'none', 'color': '#1a73e8',
-                                'fontSize': '18px'})
+                                'fontSize': '18px'}),
             ], style={'display': 'inline-block', 'float': 'right', 'marginTop': '10px'})
         ], style={'backgroundColor': '#f8f9fa', 'padding': '20px',
                   'marginBottom': '20px', 'borderBottom': '2px solid #e0e0e0'}),

@@ -2,12 +2,6 @@
 
 A Python web application built with Dash that integrates with Stripe to display products, handle payments, and visualize revenue analytics.
 
-<div align="center">
-  <a href="https://dash.plotly.com/project-maintenance">
-    <img src="https://dash.plotly.com/assets/images/maintained-by-plotly.png" width="400px" alt="Maintained by Plotly">
-  </a>
-</div>
-
 ## 🚀 Features
 
 - **Product Catalog**: Display Stripe products with images, descriptions, and pricing
@@ -26,7 +20,8 @@ A Python web application built with Dash that integrates with Stripe to display 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/plotly/dash-stripe-tutorial.git
+   git clone <repository-url>
+   cd <project-directory>
    ```
 
 2. **Create a virtual environment**
@@ -43,10 +38,6 @@ A Python web application built with Dash that integrates with Stripe to display 
 3. **Install dependencies**
    ```bash
    pip install dash plotly stripe python-dotenv pandas
-   ```
-   or
-   ```bash
-   pip install -r requirements.txt
    ```
 
 4. **Set up environment variables**
@@ -93,12 +84,17 @@ A Python web application built with Dash that integrates with Stripe to display 
 ├── app.py                          # Main Dash application
 ├── pages/
 │   ├── home.py                     # Products catalog page
+│   ├── create_product.py           # Create new stipe products within application
 │   └── analytics.py                # Revenue analytics dashboard
 ├── stripe_data/
-│   ├── stripe_analytics_tutorial.py    # Tutorial/demo script for Stripe analytics
-│   └── stripe_api_connected_test.py    # Connection test script
-├── .env.example                    # Example environment variables
+│   └── stripe_analytics_tutorial.py    # Tutorial/demo script for Stripe analytics
+├── stripe_data/
+│   ├── api_connected_test.py      # Tutorial basic api connection
+│   ├── stripe_api_basics.py       # Tutorial more indepth api connection understanding
+│   └── STRIPE_CHEATSHEET.md       # Stripe API Cheat Sheet & Tips / Tricks
+├── .env.example                   # Example environment variables
 ├── .env                           # Your actual environment variables (not in git)
+├── requirements.txt               # Packages needed for the project
 └── README.md                      # This file
 ```
 

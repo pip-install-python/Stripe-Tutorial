@@ -1,30 +1,89 @@
+# Flask's signaling system - allows certain points in Flask to notify subscribers
 blinker==1.9.0
+
+# Provides SSL/TLS certificate bundle for secure HTTPS connections
 certifi==2025.6.15
+
+# Character encoding detection library - used by requests for handling text encodings
 charset-normalizer==3.4.2
+
+# Command-line interface creation toolkit - Flask's CLI dependency
 click==8.2.1
+
+# Main framework for building the dashboard - provides React components in Python
 dash==3.0.4
+
+# Web framework that Dash is built on top of - handles HTTP requests/responses
 Flask==3.0.3
+
+# Internationalized Domain Names in Applications - handles non-ASCII domain names
 idna==3.10
+
+# Reads metadata from Python packages - backport for older Python versions
 importlib_metadata==8.7.0
+
+# Cryptographic signing for Flask - secures cookies and sessions
 itsdangerous==2.2.0
+
+# Template engine for Flask - renders HTML templates (Flask dependency)
 Jinja2==3.1.6
+
+# Safely handles HTML/XML/XHTML markup - prevents injection attacks (Jinja2 dependency)
 MarkupSafe==3.0.2
+
+# DataFrame compatibility layer - helps different DataFrame libraries work together
 narwhals==1.43.1
+
+# Allows nested asyncio event loops - useful for Jupyter/async compatibility
 nest-asyncio==1.6.0
+
+# Numerical computing library - pandas dependency for array operations
 numpy==2.3.0
+
+# Core utilities for Python package versioning and dependency specification
 packaging==25.0
+
+# Data manipulation library - you use this for handling product data from Stripe
 pandas==2.3.0
+
+# Interactive visualization library - Dash uses this for rendering charts/graphs
 plotly==6.1.2
+
+# Date/time parsing and manipulation extensions
 python-dateutil==2.9.0.post0
+
+# Loads environment variables from .env file - you use this for STRIPE_SECRET_KEY
 python-dotenv==1.1.0
+
+# Timezone definitions for Python - handles timezone conversions
 pytz==2025.2
+
+# HTTP library for making API calls - Stripe SDK uses this
 requests==2.32.4
+
+# Retry decorator for handling transient failures - useful for API calls
 retrying==1.3.4
+
+# Python package building and distribution tools
 setuptools==80.9.0
+
+# Python 2/3 compatibility library - dependency of other packages
 six==1.17.0
+
+# Official Stripe Python SDK - handles payment processing and product management
 stripe==12.2.0
+
+# Backported type hints from newer Python versions
 typing_extensions==4.14.0
+
+# Timezone database - provides timezone data for datetime operations
 tzdata==2025.2
+
+# HTTP client library - used by requests for low-level HTTP operations
 urllib3==2.5.0
+
+# WSGI utilities and middleware for Flask - handles request/response objects
 Werkzeug==3.0.6
+
+# Backport of zipfile.Path functionality for older Python versions
 zipp==3.23.0
