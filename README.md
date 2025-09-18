@@ -97,7 +97,6 @@ A Python web application built with Dash that integrates with Stripe to display 
 ├── requirements.txt               # Packages needed for the project
 └── README.md                      # This file
 ```
-
 ## 📊 Features in Detail
 
 ### Products Page (`/`)
