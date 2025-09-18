@@ -2,6 +2,9 @@
 
 A Python web application built with Dash that integrates with Stripe to display products, handle payments, and visualize revenue analytics.
 
+## 🎥 Tutorial Location:
+https://plotly.pro/tutorial?id=dash-stripe
+
 ## 🚀 Features
 
 - **Product Catalog**: Display Stripe products with images, descriptions, and pricing
